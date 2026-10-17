@@ -1,0 +1,134 @@
+/* Navbar Styles - Bloomora Plant Nursery */
+.nursery-nav.is-internal {
+  background: rgba(254, 253, 251, 0.95);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(22, 101, 52, 0.12);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nursery-nav.is-internal .nav-logo-text {
+  color: #166534;
+}
+
+.nursery-nav.is-internal .nav-links a {
+  color: #292524;
+}
+
+.nursery-nav.is-internal .nav-links a:hover,
+.nursery-nav.is-internal .nav-links a.active {
+  color: #16a34a;
+}
+
+.nav-cart-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.cart-badge {
+  background: #c2703e;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 9999px;
+  line-height: 1;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(194, 112, 62, 0.4);
+}
+
+.nav-admin-badge {
+  background: #166534;
+  color: #ffffff !important;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-admin-badge:hover {
+  background: #14532d;
+  transform: translateY(-1px);
+}
+
+.user-welcome {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.user-greeting {
+  font-weight: 600;
+  color: #166534;
+  font-size: 0.9rem;
+}
+
+.btn-logout {
+  background: none;
+  border: 1px solid #d6d3d1;
+  color: #78716c;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-logout:hover {
+  background: #ef4444;
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+.nav-auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-nav-login {
+  color: #166534 !important;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #166534;
+  font-size: 0.88rem;
+  transition: all 0.2s ease;
+}
+
+.btn-nav-login:hover {
+  background: #f0fdf4;
+}
+
+.btn-nav-register {
+  background: #166534;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 0.4rem 0.95rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(22, 101, 52, 0.2);
+}
+
+.btn-nav-register:hover {
+  background: #14532d;
+  transform: translateY(-1px);
+}
+
+.admin-controls {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+

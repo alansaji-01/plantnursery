@@ -1,0 +1,4 @@
+.App {
+  /* Reset default CRA styling — everything handled by Home.css */
+  min-height: 100vh;
+}
